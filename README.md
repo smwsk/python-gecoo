@@ -1,3 +1,3 @@
 # python-gecoo
 
-[详细文档](http://localhost:4000/2019/09/04/python/gecco/)
+[详细文档](https://smwsk.github.io/2019/09/04/python/gecco/)
