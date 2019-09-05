@@ -26,6 +26,7 @@ class IcomicSpiderSpider(scrapy.Spider):
             yield icomic_item
         next_link = response.xpath("//div[@class='acgn-pages acgn-mb24 J_pages']//a[@class='acgn-next']//@href").extract()
         print(next_link)
+        # 如果有下一页继续把网址添加到调度器中去下载
         # if next_link:
         #     next_link = next_link[0]
         #     yield scrapy.Request("https://www.manhuatai.com/" + next_link, callback=self.parse)
